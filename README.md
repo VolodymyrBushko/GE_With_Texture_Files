@@ -9,7 +9,8 @@ sudo apt-get install freeglut3-dev
   
 Build project:  
 ================
-git clone https://github.com/VolodymyrBushko/GE_With_Texture_Files.git 
+git clone https://github.com/VolodymyrBushko/GE_With_Texture_Files.git  
+
 cd GameEngine  
 mkdir build  
 cd build  
