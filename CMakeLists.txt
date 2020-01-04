@@ -1,0 +1,8 @@
+CMake_minimum_required (VERSION 3.5.2)
+set(CMAKE_CXX_STANDARD 11)
+project (Figure)
+find_package (OpenGL REQUIRED)
+find_package (GLUT REQUIRED)
+file(GLOB SRCS *.cpp)
+add_executable(${PROJECT_NAME} ${SRCS})
+target_link_libraries (${PROJECT_NAME} ${OPENGL_gl_LIBRARY} ${GLUT_LIBRARY} ${OPENGL_glu_LIBRARY})
